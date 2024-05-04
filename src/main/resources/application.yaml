@@ -1,10 +1,20 @@
-spring:
-  profiles:
-    active: native
-
 server:
   port: 8888
 
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/configurations
 
-
-
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: ${EUREKA_SERVER_ADDRESS:http://3.109.184.195:8761/eureka}
