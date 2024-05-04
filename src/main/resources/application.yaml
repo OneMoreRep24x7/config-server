@@ -1,12 +1,6 @@
 spring:
-  application:
-    name: config-server
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://ashishs1460:Jeshma2022@github.com/ashishs1460/https://github.com/OneMoreRep24x7/config-repository.git
-
+  profiles:
+    active: native
 
 server:
   port: 8888

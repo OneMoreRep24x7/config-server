@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://onemorerep24x7:CYP3ot4IwcwdxKq7@onemorerep.i8a0r4i.mongodb.net/OneMoreRep?retryWrites=true&w=majority&appName=oneMoreRep
+
+server:
+  port: 8083
