@@ -5,14 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: file://Users/ashish/Desktop/config-repository
+          uri: https://ashishs1460:Jeshma2022@github.com/ashishs1460/https://github.com/OneMoreRep24x7/config-repository.git
 
-eureka:
-  instance:
-    host: localhost
-  client:
-    service-url:
-      defaultZone:  http://localhost:8761/eureka
 
 server:
   port: 8888
