@@ -22,6 +22,7 @@ eureka:
     service-url:
       defaultZone: http://3.111.235.72:8761/eureka
 
+
 server:
   port: 8081
 
